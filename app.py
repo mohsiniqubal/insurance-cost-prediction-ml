@@ -104,20 +104,15 @@ with col2:
 # ==============================
 # DATA PREPARATION
 # ==============================
-
-# Convert UI → Model format
 sex = 1 if "Male" in gender else 0
 smoker = 1 if "Yes" in smoker else 0
 
-# Validation
 is_valid = True
 if bmi <= 0:
     is_valid = False
 
-# Create input array
 input_data = np.zeros(len(columns))
 
-# Map inputs
 input_dict = {
     'age': age,
     'sex': sex,
@@ -127,7 +122,6 @@ input_dict = {
     f'region_{region}': 1
 }
 
-# Fill input array
 for i, col in enumerate(columns):
     if col in input_dict:
         input_data[i] = input_dict[col]
