@@ -70,7 +70,7 @@ The final model used is **Random Forest Regressor**, as it performed better comp
 
 ```bash
 git clone https://github.com/mohsiniqubal/insurance-cost-prediction-ml.git
-cd your-repo-name
+cd insurance-cost-prediction-ml.git
 pip install -r requirements.txt
 python -m streamlit run app.py
 ```
