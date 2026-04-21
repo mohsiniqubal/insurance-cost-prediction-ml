@@ -1,4 +1,4 @@
-# 💰 Insurance Cost Prediction App
+Insurance Cost Prediction App
 
 ![Python](https://img.shields.io/badge/Python-3.10-blue?logo=python)
 ![Streamlit](https://img.shields.io/badge/Streamlit-Deployed-red?logo=streamlit)
