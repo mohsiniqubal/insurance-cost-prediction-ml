@@ -7,13 +7,13 @@
 
 ---
 
-## 🚀 Live Demo
+##  Live Demo
 
-👉 https://insurancecost-predictor.streamlit.app/
+ https://insurancecost-predictor.streamlit.app/
 
 ---
 
-## 📌 About the Project
+## About the Project
 
 This project focuses on predicting medical insurance costs based on user information such as age, BMI, smoking habits, and region.
 
@@ -21,7 +21,7 @@ The goal was to build a simple yet effective machine learning model and deploy i
 
 ---
 
-## 🧠 How it Works
+## How it Works
 
 * The dataset is first cleaned and explored to understand patterns
 * Categorical features are converted into numerical form
@@ -31,7 +31,7 @@ The goal was to build a simple yet effective machine learning model and deploy i
 
 ---
 
-## 📊 Features Used
+## Features Used
 
 * Age
 * Gender
@@ -42,13 +42,13 @@ The goal was to build a simple yet effective machine learning model and deploy i
 
 ---
 
-## 🤖 Model Details
+## Model Details
 
 The final model used is **Random Forest Regressor**, as it performed better compared to other models in terms of accuracy and error metrics.
 
 ---
 
-## 📈 Evaluation Metrics
+## Evaluation Metrics
 
 * R² Score → Measures how well the model fits the data
 * MAE (Mean Absolute Error) → Average prediction error
@@ -56,7 +56,7 @@ The final model used is **Random Forest Regressor**, as it performed better comp
 
 ---
 
-## 🖥️ Tech Stack
+## Tech Stack
 
 * Python
 * Pandas & NumPy
@@ -66,7 +66,7 @@ The final model used is **Random Forest Regressor**, as it performed better comp
 
 ---
 
-## ⚙️ Run Locally
+## Run Locally
 
 ```bash
 git clone https://github.com/mohsiniqubal/insurance-cost-prediction-ml.git
@@ -77,13 +77,13 @@ python -m streamlit run app.py
 
 ---
 
-## 🌍 Deployment
+## Deployment
 
 The application is deployed on **Streamlit Cloud**, making it accessible through a public link without any setup.
 
 ---
 
-## ✨ What makes this project special
+## What makes this project special
 
 * End-to-end pipeline (data → model → deployment)
 * Simple and clean user interface
@@ -92,17 +92,16 @@ The application is deployed on **Streamlit Cloud**, making it accessible through
 
 ---
 
-## ⚠️ Note
+## Note
 
 This prediction is based on a machine learning model and may not be 100% accurate.
 It is intended for learning and demonstration purposes.
 
 ---
 
-## 👨‍💻 Author
+## Author
 
 **Mohsin Iqubal**
 
 ---
-
-⭐ If you liked this project, feel free to star the repository!
+If you liked this project, feel free to star the repository!
