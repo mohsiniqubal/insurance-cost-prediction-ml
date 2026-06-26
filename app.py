@@ -9,7 +9,6 @@ import numpy as np
 # ==============================
 st.set_page_config(
     page_title="Insurance Predictor",
-    page_icon="💰",
     layout="centered"
 )
 
@@ -42,8 +41,8 @@ h1 {
 # ==============================
 # TITLE
 # ==============================
-st.title("💰 Insurance Cost Prediction")
-st.info("⚠️ This prediction is based on a machine learning model and may vary.")
+st.title("Insurance Cost Prediction")
+st.info("This prediction is based on a machine learning model and may vary.")
 st.markdown("Enter your details below to estimate your insurance cost.")
 
 # ==============================
@@ -78,22 +77,22 @@ with col1:
     )
 
     if bmi <= 0:
-        st.warning("⚠️ Please enter a valid BMI greater than 0.")
+        st.warning("Please enter a valid BMI greater than 0.")
 
-    st.caption("📊 Normal BMI range: 18.5 – 24.9")
+    st.caption("Normal BMI range: 18.5 – 24.9")
 
     children = st.slider("Children", 0, 5, 0)
 
 with col2:
     gender = st.radio(
         "Gender",
-        ["👨 Male", "👩 Female"],
+        ["Male", "Female"],
         horizontal=True
     )
 
     smoker = st.radio(
         "Smoker",
-        ["🚬 Yes", "❌ No"],
+        ["Yes", "No"],
         horizontal=True
     )
 
@@ -130,7 +129,7 @@ for i, col in enumerate(columns):
 # ==============================
 # PREDICTION
 # ==============================
-if st.button("🚀 Predict Insurance Cost") and is_valid:
+if st.button("Predict Insurance Cost") and is_valid:
     prediction = model.predict([input_data])
 
     st.markdown(f"""
